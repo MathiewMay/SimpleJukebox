@@ -1,0 +1,12 @@
+JukeboxRadius: 30 #Jukebox radius in blocks, 30 is recommended. This does not change how far from the jukebox you can hear the track.
+JukeboxRequiresPermission: false #If this value is set to true players will need the 'SimpleJukebox.use' permission to use a jukebox.
+Messages:
+  NoPermission: "&cYou are not allowed to use this command."
+  NoPermissionUse: "&cYou are not allowed to use jukeboxes."
+  SJBadSyntax: "&cBad syntax when using '{CMD}', type '/help SimpleJukebox' for help."
+  SJReloaded: "&2Reloaded config files"
+  JukeboxNowPlaying: "Now Playing:"
+  JukeboxTrackStarted: "{PLAYER} Started the Track,"
+  JukeboxTrackChanged: "{PLAYER} Changed the Track,"
+  JukeboxTrackStopped: "{PLAYER} Stopped the Track."
+  StopTrack: "&cStop Track"

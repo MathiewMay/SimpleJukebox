@@ -1,0 +1,10 @@
+name: SimpleJukebox
+version: ${project.version}
+main: ca.cobiy.simple_jukebox.SimpleJukebox
+api-version: 1.16
+authors: [ Cobiy ]
+commands:
+  SimpleJukebox:
+    description: Commands for SimpleJukebox
+    usage: /SimpleJukebox <reload>
+    aliases: sj
