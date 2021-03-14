@@ -18,14 +18,12 @@ public class SimpleJukeboxCMD implements CommandExecutor {
         if(args.length == 1 && args[0].equals("reload") && sender.hasPermission("SimpleJukebox.reload")){
             plugin.reloadConfig();
             sender.sendMessage(plugin.configurator.msgSJReloaded());
-            return true;
         }else if(args.length != 1) {
             String output = plugin.configurator.msgSJBadSyntax(); if(output.contains("{CMD}")) output.replace("{CMD}", "/"+label);
             sender.sendMessage(ChatColor.translateAlternateColorCodes('&', output));
-            return true;
         }else {
             sender.sendMessage(plugin.configurator.msgNoPerms());
-            return true;
         }
+        return true;
     }
 }
